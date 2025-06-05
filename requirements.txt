@@ -1,0 +1,34 @@
+streamlit
+Pillow
+matplotlib
+ollama
+
+
+# # 👟 FitSnap AI – Outfit Match & Size Predictor
+
+# FitSnap AI is a fashion assistant app that recommends outfits, predicts your size, and answers fashion-related queries using local LLMs via Ollama.
+
+# ## 💡 Features
+
+# - Upload full-body photo
+# - Match outfits based on body type
+# - Predict size (S/M/L)
+# - Ask FitBot (local AI using TinyLLaMA)
+# - Download style-fit report
+
+# ## 🚀 How to Run (No venv)
+
+# ```bash
+# # Clone the repo
+# git clone https://github.com/yourusername/FitSnap-AI.git
+# cd FitSnap-AI
+
+# # Install dependencies
+# pip install -r requirements.txt
+
+# # Start Ollama
+# ollama serve
+# ollama run tinyllama
+
+# # Run Streamlit app
+# streamlit run app.py
